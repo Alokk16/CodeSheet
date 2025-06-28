@@ -1,9 +1,9 @@
 import React, { useState, useMemo } from 'react';
 import './styles/App.css';
-import Header from './components/Header';           // Remove .jsx
-import SearchBox from './components/SearchBox';     // Remove .jsx
-import CategoryCard from './components/CategoryCard'; // Remove .jsx
-import CheatSheet from './components/CheatSheet';   // Remove .jsx
+import Header from './components/Header';
+import SearchBox from './components/SearchBox';
+import CategoryCard from './components/CategoryCard';
+import CheatSheet from './components/CheatSheet';
 import { cheatsheets, categories } from './data/cheatsheets';
 
 function App() {
