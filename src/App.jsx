@@ -1,10 +1,10 @@
 import React, { useState, useMemo } from 'react';
 import './styles/App.css';
-import Header from './components/Header';
-import SearchBox from './components/SearchBox';
-import CategoryCard from './components/CategoryCard';
-import CheatSheet from './components/CheatSheet';
-import { cheatsheets, categories } from './data/cheatsheets';
+import Header from './components/Header.jsx';
+import SearchBox from './components/SearchBox.jsx';
+import CategoryCard from './components/CategoryCard.jsx';
+import CheatSheet from './components/CheatSheet.jsx';
+import { cheatsheets, categories } from './data/cheatsheets'; 
 
 function App() {
   const [selectedCheatsheet, setSelectedCheatsheet] = useState(null);

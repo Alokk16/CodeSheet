@@ -15,7 +15,6 @@ const SearchBox = ({ searchTerm, onSearchChange }) => {
           onFocus={() => setIsFocused(true)}
           onBlur={() => setIsFocused(false)}
         />
-        {/* Search Icon */}
         <div className="search-icon">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <circle cx="11" cy="11" r="8"/>
